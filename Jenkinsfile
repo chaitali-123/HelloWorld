@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                sh 'date' 
+               sh 'echo "chaitali"' 
             }
         }
         stage('Test'){
             steps {
                 
-                sh 'pwd'
+                sh 'echo "chaitali"'
             }
         }
         stage('Deploy') {
