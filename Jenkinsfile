@@ -2,7 +2,7 @@ node  {
         
         stage('Build') { 
            
-               sh 'echo "chaitali"' 
+               sh 'python hello.py' 
            
         }
         stage('Test'){
