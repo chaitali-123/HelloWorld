@@ -2,7 +2,7 @@ node  {
         
         stage('Build') { 
            
-               sh 'python hello.py' 
+               sh 'pwd' 
            
         }
         stage('Test'){
