@@ -1,6 +1,5 @@
-pipeline { 
-    agent any 
-    stages {
+node  { 
+        
         stage('Build') { 
             steps { 
                sh 'echo "chaitali"' 
@@ -17,5 +16,5 @@ pipeline {
                 sh 'echo "chaitali"'
             }
         }
-    }
+  
 }
