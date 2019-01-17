@@ -2,7 +2,7 @@ node  {
         checkout scm
         stage('Build') { 
            
-               sh 'pwd' 
+               sh './hello.py' 
            
         }
         stage('Test'){
